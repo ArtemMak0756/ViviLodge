@@ -1,0 +1,176 @@
+/*Обнуление*/
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+/*input::-ms-clear{display:none;}*/
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+/*ul li{list-style:none;}*/
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+body{
+    font-family: Inter, serif;
+}
+header{
+    width: 100%;
+    height: 1860px;
+    background-image: url("../images/image 14.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 40px;
+}
+#cookieHeader{
+    height: 1550px;
+}
+.header__container{
+    max-width: 1202px;
+    height: 82px;
+    margin: 0 auto;
+    display: flex;
+    padding: 19px 49px;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+    border-radius: 18px;
+    background: #FFF;
+}
+.header__container a{
+    color: #262626;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.2s;
+}
+.header__container a:hover{
+    color: #65AEF2;
+    transition: 0.2s;
+}
+#active{color: #65AEF2;}
+
+
+#H1{
+    color: #1E1E1E;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* From Uiverse.io by Codewithvinay */
+.card{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 7%;
+}
+.card__container {
+    width: 1000px;
+    height: 100%;
+    border-radius: 50px;
+    background: #ffffff;
+    box-shadow: 10px 10px 30px #ffffff,
+    -10px -10px 30px #ffffff;
+    padding: 40px;
+}
+.card__container section{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.card__container section h2{
+    color: #1E1E1E;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.card__container p{
+    color: #5E5E5E;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.card__container li{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+footer {
+    background-color: #111;
+    color: #fff;
+    padding: 20px 40px;
+}
+.footer-container {
+    max-width: 1200px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.newsletter h3 {
+    margin: 0;
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.newsletter form {
+    max-width: 600px;
+    height: 50px;
+    display: flex;
+    margin-top: 10px;
+}
+.email-input {
+    padding: 10px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    width: 250px;
+}
+.subscribe-button {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+.subscribe-button:hover {
+    background-color: #357abd;
+}
+.footer-links {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 2;
+}
+.footer-links ul a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.footer-links ul a:hover {
+    text-decoration: underline;
+}
